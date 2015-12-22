@@ -14,7 +14,7 @@
                 <stentry>a lossless data compression algorithm that was first published by 		 			Terry Welch in 1984 as a modification of the LZ77 and LZ78 compression algorithms developed by Jacob Ziv and Abraham Lempel</stentry>
             </strow>
             <strow>
-                <stentry>Lossless Data Compression/stentry>
+                <stentry>Lossless Data Compression</stentry>
                 <stentry>data compression algorithm where original data can be perfectly reconstructed from the compressed data</stentry>
             </strow>
             <strow>
