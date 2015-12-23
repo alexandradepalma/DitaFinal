@@ -1,0 +1,78 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2015">
+<meta name="DC.rights.owner" content="(C) Copyright 2015">
+<meta name="DC.Type" content="task">
+<meta name="description" content="This task will help you convert various file formats to a PNG file on a Mac operating system."><meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="GIFvsPNG">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="../commonltr.css">
+<title>Converting to a PNG File using Command Line on Mac</title>
+</head>
+<body id="GIFvsPNG">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+<h1 class="title topictitle1" id="ariaid-title1"> Converting to a PNG File using Command Line on Mac </h1>
+
+	
+
+<div class="body taskbody"><p class="shortdesc">
+		This task will help you convert various file formats to a PNG file on a Mac operating system.
+		</p>
+
+	<section class="section context">
+		<p class="p"> Have a webpage that is currently in developmnet</p>
+
+		<p class="p"> Have the appropriate software and hardware</p>
+
+		<p class="p"> Have an OS X operating system. </p>
+
+		<p class="p"> Have a file that you want to convert to PNG </p>
+
+		<p class="p"> Connect to the directory your image is located in </p>
+
+		<p class="p"> If converting multiple images, have a sub file called "converted". </p>
+
+</section>
+
+				
+
+
+
+<ol class="ol steps"><li class="li step">
+	<span class="ph cmd">
+	Open the terminal. We will be using "sips". sips is Apple's pre-installed "simple image processing system".
+        </span>
+        </li>
+<li class="li step">
+        <span class="ph cmd">
+        Type: "sips -s format png test.jpg --out test.png"  into the terminal; Here we are converting from a jpg file.
+         </span>
+         </li>
+<li class="li step">
+       <span class="ph cmd">
+       If you wish to convert from another file (ie, a pdf) replace ".jpg" with ".pdf". 
+      </span>
+     </li>
+<li class="li step">
+     <span class="ph cmd">
+       To convert multiple image files at once, type "for i in *.jpeg; do sips -s format png $i --out Converted/$i.png;done" Here we've converted all "jpeg" files within our directory to png and placed them in the "converted" folder. 
+      </span>
+      </li>
+<li class="li step">
+      <span class="ph cmd">
+       If you wish to convert your batch of images from another file (ie, a pdf) replace ".jpg" with ".pdf". 
+       </span>
+	</li>
+<li class="li step">
+	<span class="ph cmd">
+	In the event that a "libpng warning" pops up on your terminal, you can ignore it. It is an issue related to different versions of image control programs on the same computer. 
+	</span>
+	</li>
+</ol>
+
+</div>
+
+</article></main></body>
+</html>

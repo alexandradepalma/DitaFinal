@@ -1,0 +1,31 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2015">
+<meta name="DC.rights.owner" content="(C) Copyright 2015">
+<meta name="DC.Type" content="concept">
+<meta name="description" content="A brief explanation of LZW Compression"><meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="LZWCompression">
+<link rel="stylesheet" type="text/css" href="../commonltr.css">
+<title>LZW Compression</title>
+</head>
+<body id="LZWCompression">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">LZW Compression</h1>
+
+    
+    <div class="body conbody"><p class="shortdesc">A brief explanation of LZW Compression</p>
+
+        <p class="p">
+       Lempel-Ziv-Welch (LZW) is a lossless data compression algorithm that was first published by Terry Welch in 1984 as a modification of the LZ77 and LZ78 compression algorithms developed by Jacob Ziv and Abraham Lempel. It is a dictionary based compression algorithm that is relatively simple for developers to implement and is widely used in GIF file formats.</p>
+
+        <p class="p">LZW is a dictionary-based compression method that takes advantage of repetitive patterns. LZW is based on a standard character set dictionary of 256 characters. To decompress the data, LZW does not require the dictionary assignments that were featured in the compression; this is because both the encoding and the decoding programs utilize the same 256 characters. To decompress, LZW reads an assigned character and “looks up” the character in the dictionary to see what substring it was applied to. This process is repeated until the information is decoded.</p>
+
+        <p class="p"> LZW is used to compress GIF files by removing horizontal redundancies.This caused a few issues in the early 1990's, when the patent holders for LZW began collecting licensing fees on the use of the algorithm. These issues inspired a Usenet.com.graphics discussion and resulted in the creation of the PNG file. PNG files use a variation of LZW compression that does not fall under the Unisys patent.
+        </p>
+   
+         </div>
+
+</article></main></body>
+</html>

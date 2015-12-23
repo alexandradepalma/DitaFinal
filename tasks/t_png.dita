@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<! DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "/plugins/org.oasis-open.dita.
-V1_2/dtd/technicalContent/dtd/task.dtd">
-<task id="GIFvsPNG">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+<task id="GIFvsPNG" xml:lang="en-us">
 <title> Converting to a PNG File using Command Line on Mac </title>
 	<shortdesc>
 		This task will help you convert various file formats to a PNG file on a Mac operating system.
 		</shortdesc>
 
 <taskbody>
-	<prereq>
+	<context>
 		<p> Have a webpage that is currently in developmnet</p>
 		<p> Have the appropriate software and hardware</p>
 		<p> Have an OS X operating system. </p>
 		<p> Have a file that you want to convert to PNG </p>
 		<p> Connect to the directory your image is located in </p>
 		<p> If converting multiple images, have a sub file called "converted". </p>
-	</prereq>
+</context>
 				
-<content>
-<p> This task will help you convert to a PNG file  on a Mac OS X system. </p>
-</content>
+
+
+
 <steps>
 	<step>
 	<cmd>

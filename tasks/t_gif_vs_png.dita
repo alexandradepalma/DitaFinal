@@ -1,22 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<! DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "/plugins/org.oasis-open.dita.
-V1_2/dtd/technicalContent/dtd/task.dtd">
-<task id="GIFvsPNG">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+<task id="GIFvsPNG" xml:lang="en-us">
 <title> Goal: Deciding Whether to Use a GIF or PNG file </title>
 	<shortdesc>
 		This task will aid you in selecting the GIF or PNG file format.
 	</shortdesc>
 
 <taskbody>
-	<prereq>
+<context>
 		<p> Have a webpage that is currently in developmnet</p>
 		<p> Have the appropriate software and hardware</p>
 		<p> Have a goal in mind for what you would like your image file to achieve.</p>
-		</prereq>
-				
-<content>
-<p> This will aid you in selecting the GIF or PNG file format. </p>
-</content>
+</context>
+
 <steps>
 	<step>
 	<cmd>

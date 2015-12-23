@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-<! DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "/plugins/org.oasis-open.dita.
-V1_2/dtd/technicalContent/dtd/task.dtd">
-<task id="GIF">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "plugins/org.oasis-open.dita.v1_2/dtd/technicalContent/dtd/task.dtd">
+<task id="GIF" xml:lang="en-us">
 <title> How to Create a GIF using the Command Line on a OS X Operating System </title>
 	<shortdesc>
 		This task will enable you to create a GIF using the terminal on a Mac computer.
 	</shortdesc>
 
 <taskbody>
-	<prereq>
+	<context>
 		<p> Ensure that you meet all of the software and hardware requirements.</p>
 		<p> Have an operational understanding of how a terminal works.</p>
 		<p> Select a video clip.</p>
-		<p> Download  mplayer, imagemagick, and gifsicle. All of these can be downloaded 	   from the  Homebrew Package Manager </p>
+		<p> Download  mplayer, imagemagick, and gifsicle. All of these can be downloaded from the  Homebrew Package Manager </p>
 		<p> Have a "gif" directory </p>
-		</prereq>
+		
 				
-<content>
 <p> This task will enable you to create a GIF using the terminal on a Mac computer. </p>
-</content>
+
+</context>
+
 <steps>
 	<step>
 	<cmd>

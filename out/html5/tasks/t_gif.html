@@ -1,0 +1,73 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2015">
+<meta name="DC.rights.owner" content="(C) Copyright 2015">
+<meta name="DC.Type" content="task">
+<meta name="description" content="This task will enable you to create a GIF using the terminal on a Mac computer."><meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="GIF">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="../commonltr.css">
+<title>How to Create a GIF using the Command Line on a OS X Operating System</title>
+</head>
+<body id="GIF">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+<h1 class="title topictitle1" id="ariaid-title1"> How to Create a GIF using the Command Line on a OS X Operating System </h1>
+
+	
+
+<div class="body taskbody"><p class="shortdesc">
+		This task will enable you to create a GIF using the terminal on a Mac computer.
+	</p>
+
+	<section class="section context">
+		<p class="p"> Ensure that you meet all of the software and hardware requirements.</p>
+
+		<p class="p"> Have an operational understanding of how a terminal works.</p>
+
+		<p class="p"> Select a video clip.</p>
+
+		<p class="p"> Download  mplayer, imagemagick, and gifsicle. All of these can be downloaded from the  Homebrew Package Manager </p>
+
+		<p class="p"> Have a "gif" directory </p>
+
+		
+				
+<p class="p"> This task will enable you to create a GIF using the terminal on a Mac computer. </p>
+
+
+</section>
+
+
+<ol class="ol steps"><li class="li step">
+	<span class="ph cmd">
+	Take the segment of video that you chose and note the start  in H:MM:SS timestamp   format. Note the end time as well. 
+</span>
+</li>
+<li class="li step">
+<span class="ph cmd">
+Use the mplayer package to transform the video into a series of images.
+</span>
+</li>
+<li class="li step">
+<span class="ph cmd">
+Input into the terminal: "mplayer -ao null -ss H:MM:SS-endpos 5 -vo gif89a:outdir=gif videofile.mp4 " ao= audio output, it is null because the gif will be silent; ss is the start position, input the time stamp in H:MM:SS format; endpos is the end position, input the number of seconds that elapse from the start time stamp to where you would like the gif to end; gif89a is the output format; outdir=gif is our output director; videofile.mp4 if the format of the video we have trimmed.
+</span>
+</li>
+<li class="li step">
+<span class="ph cmd">
+You should now have still images in your "Gif" directory. Go through and remove the unnecessary images at the start and end, so the gif appears smooth. If you want, you can manually do this outside of the command line by going into the directory. 
+</span>
+</li>
+<li class="li step">
+<span class="ph cmd">
+Use the gifsicle package to convert the series of images into an animated " gif. gifsicle --colors=256 --delay=4 --loopcount=0 --dither -O3 *.gif " animation.gif. 256 is a good number of colors of an animated gif to still be easily uploaded; loopcount is the number of times the gif repeats itself; dither adds noise to the image file to randomize quantization error/ prevent color banding
+</span>
+</li>
+</ol>
+
+</div>
+
+</article></main></body>
+</html>
